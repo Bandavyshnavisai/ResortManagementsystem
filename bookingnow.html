@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="booknow.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+        <body>
+            <div class="container">
+                <form class="form-group">
+                    <div id="form">
+                        <h1 class="text-white text-center" style="color:white"><center>BOOKING NOW</center></h1>
+                        <div id="firstgroup">
+                            <div id="content">
+                            <i class="ri-user-fill"></i>
+                            <input type="text" id="inputgroup" placeholder="Firstname" required>
+                        </div>
+                        <div id="content">
+                            <i class="ri-user-fill"></i>
+                            <input type="text" id="inputgroup" placeholder="Lastname" required>
+                        </div>
+                        <div id="content">
+                            <i class="ri-phone-fill"></i>
+                            <input type="number" id="inputgroup" placeholder="Phonenum" required>
+                        </div>
+                        <div id="content">
+                            <i class="ri-team-fill"></i>
+                            <select id="inputgroup" style="background-color: black;" required>
+                                <option value=" ">No.of guests</option>
+                                <option value=" ">1-5</option>
+                                <option value=" ">6-10</option>
+                                <option value=" ">11-15</option>
+                                <option value=" ">16-20</option>
+                            </select>
+                        </div>
+                        </div>
+                        <div id="secondgroup">
+                            
+                            <div id="content">
+                                <i class="ri-mail-fill"></i>
+                                <input type="email" id="inputgroup" placeholder="Email" required>
+                            </div>
+                            <div id="content">
+                                <i class="ri-calendar-fill"></i>
+                                <input type="text" id="inputgroup" placeholder="Departure Date" required>
+                            </div>
+                            
+
+                            <div id="content">
+                                <i class="ri-calendar-fill"></i>
+                                <input type="text" id="inputgroup" placeholder="Arrival Date" required>
+                            </div>
+                            <div id="content">
+                                <i class="ri-team-fill"></i>
+
+                            <select id="inputgroup" style="background-color: black;" required>
+                                <option value=" ">Room type</option>
+                                <option value=" ">DELUXE SUITE</option>
+                                <option value=" ">FAMILY SUITE</option>
+                                <option value=" ">LUXURY PENTHOUSE</option>
+                                
+                            </select>
+                        </div>
+                            
+                        </div>
+                        <center><div id="content1"  height="10px">
+                            <i class="ri-money-rupee-circle-fill"></i>
+                            <select id="inputgroup" style="background-color: black;" required>
+                                <option value=" ">Payment options</option>
+                                <option value=" ">Gpay</option>
+                                <option value=" ">Credit /Debit card</option>
+                                <option value=" ">Pay on arrival</option>
+                            </select>
+                        </div></center>
+                        <button type="submit" value="submit" class="button" onclick="press()">BOOK NOW</button>
+                        
+                    </div>
+                </form>
+            </div>
+            <script type="text/javascript">
+                function press(){
+                    alert("thank you,you will receive an email regard booking");
+                
+                }
+
+            </script>
+        </body>
+    </head>
+</html>

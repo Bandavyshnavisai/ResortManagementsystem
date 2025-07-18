@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp4611913.jpg");
+    background-position: center;
+    background-size: auto;
+
+}
+#form{
+    background-color:black;
+    height: 490px;
+    width:850px;
+    margin:auto;
+    margin-top: 80px;
+    opacity:0.75;
+   
+}
+#firstgroup{
+    border:transparent;
+    margin-top:40px;
+    width:400px;
+    position:absolute;
+}
+#content{
+    border:1px solid white;
+    margin:10px;
+    margin-left:8px;
+    padding:5px;
+}
+#inputgroup{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:white;
+}
+::placeholder{
+    color:white;
+}
+.ri-user-fill{
+    display:inline-block;
+    color:rgba(128, 128, 128, 0.623);
+    border-right:1px solid rgba(128, 128, 128, 0.934);
+   padding:8px;
+   margin-left:8px;
+}
+.ri-phone-fill{
+    display:inline-block;
+    color:rgba(128, 128, 128, 0.623);
+    border-right:1px solid rgba(128, 128, 128, 0.934);
+   padding:8px;
+   margin-left:8px;
+}
+.ri-team-fill{
+    display:inline-block;
+    color:rgba(128, 128, 128, 0.623);
+    border-right:1px solid rgba(128, 128, 128, 0.934);
+   padding:8px;
+   margin-left:8px;
+}
+#secondgroup{
+    border:transparent;
+    margin-top:49px;
+    width:400px;
+    margin-left:400px;
+}
+.ri-calendar-fill{
+    display:inline-block;
+    color:rgba(128, 128, 128, 0.623);
+    border-right:1px solid rgba(128, 128, 128, 0.934);
+   padding:8px;
+   margin-left:8px;
+
+}
+.ri-mail-fill{
+    display:inline-block;
+    color:rgba(128, 128, 128, 0.623);
+   
+    border-right:1px solid rgba(128, 128, 128, 0.934);
+   padding:8px;
+   margin-left:8px;
+
+}
+.button{
+    margin-left:600px;
+    margin-top:45px;
+    background: transparent;
+    color:white;
+    width:200px;
+    padding:8px;
+    outline:none;
+    border:1px solid grey;
+    font-size:20px;
+    margin-right:200px;
+    margin-top:15px;
+
+
+}
+#content1{
+    border:1px solid white;
+    margin:10px;
+    margin-left:8px;
+    padding:5px;
+    width:370px;
+}
+
+
+.ri-money-rupee-circle-fill{
+    display:inline-block;
+    color:rgba(128, 128, 128, 0.623);
+    border-right:1px solid rgba(128, 128, 128, 0.934);
+    padding:8px;
+    margin-left:8px;
+
+}
+
